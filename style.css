@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey');
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+.board {
+    text-align: center;
+}
+.board h1 {
+    font-family: 'Arapey', serif;
+    font-size: 60px;
+}
+.column-container {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top:30px;
+}
+.column {
+    width: 22%;
+    float: left;
+    height: 500px;
+    background-color: rgb(99, 92, 92);
+    margin: 10px;
+}
+.column-title {
+    color: #fff;
+    font-family: 'Arapey', serif;
+    font-size: 30px;
+    word-wrap: break-word;
+}
+.column ul {
+    list-style-type: none;
+    margin: 10px;
+    padding-top: 5px;
+    padding: 0;
+}
+.column ul li {
+    text-align: center;
+    background-color: rgb(255, 238, 0);
+    word-wrap: break-word;
+    padding:10px;
+}
+.card {
+    font-family: 'Cookie', cursive;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.card-placeholder {
+	background: red;
+}
