@@ -37,6 +37,7 @@
     background-color: rgb(255, 238, 0);
     word-wrap: break-word;
     padding:10px;
+    min-height: 20px;
 }
 .card {
     font-family: 'Cookie', cursive;
@@ -45,4 +46,10 @@
 }
 .card-placeholder {
 	background: red;
+}
+.card-description {
+    margin: 5px;
+}
+.ui-sortable {
+    min-height: 500px;
 }
